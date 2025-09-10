@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.position {
+    position: absolute;
+}
+
+.bg-green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 0;
+}
+.bg-orange {
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+     left: 20px;
+}
+
+.bg-blue {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+     left: 30px;
+    /* bottom: 0; */
+}
+.parent{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}

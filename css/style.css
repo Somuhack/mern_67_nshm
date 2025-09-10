@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    position: relative;
+}
+
+/* 1em= width:20px width:1em=20px  1920 x 1080 */
+header {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    height: 60px;
+    position:fixed ;
+    z-index: 1;
+    /* top: 10; */
+}
+
+.nav-list {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 50px;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: end;
+    align-items: center;
+}
+
+/* .box{
+    background-color: rgb(151, 151, 151);
+    color:white ;
+    padding: 20px 10px 15px 5px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+} */
+.logo {
+    padding-left: 70px;
+}
+
+.section-1 {
+    color: aliceblue;
+}
+
+.header-left {
+    width: 600px;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.header-content {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-left>button {
+    background-color: rgb(232, 89, 17);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.header-left>p {
+    color: rgb(255, 255, 255);
+}
+
+.my-fonts {
+    font-weight: 500;
+    font-size: 1.7rem;
+    /*1rem =16px*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner{
+    background-image: url("../img/b2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.get-help{
+   width: 70px;
+   height: 70px;
+   background-color: orangered;
+   border-radius: 50%;
+   border: none;
+   color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   right: 30px;
+   bottom: 30px;
+   font-size: 1.4rem;
+}
